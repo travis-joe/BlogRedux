@@ -28,7 +28,7 @@ class PostsShow extends Component {
             return <div>Loading...</div>
         }
         return (<div>
-            <Link to="/" className="pull-xs-right">Back To Index</Link>
+            <Link to="/" className="pull-xs-right">回到主页</Link>
 
             <button className="btn btn-primary "
                     onClick={this.onEditCLick.bind(this)}>
